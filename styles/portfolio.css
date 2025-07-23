@@ -3,11 +3,16 @@
 
 
 /* navbar section */
+
+
 .navbar{
     /* max-width: 1140px;  */
     /* margin: 0 auto; */
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
+    margin-left: 60px;
+    margin-right: 50px;
 }
+
 
 .navbar{
     display: flex;
@@ -29,8 +34,8 @@
 .icon{
     height: 24px;
     width: 24px;
-    /* align-items: center; */
-    /* margin-top: 10px; */
+    align-items: center;
+    margin-top: 10px;
 }
 
 nav a{
@@ -40,5 +45,20 @@ nav a{
 nav li{
      list-style: none;
      display: inline;
-     margin: 10px;
+     margin: 20px;
+}
+
+
+/* banner section */
+
+.banner{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 100px;
+    /* align-items: center; */
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid brown;
+
 }
