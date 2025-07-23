@@ -1,0 +1,44 @@
+/* shared style */
+
+
+
+/* navbar section */
+.navbar{
+    /* max-width: 1140px;  */
+    /* margin: 0 auto; */
+    border: 1px solid brown;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0px 0px 50px 50px; */
+   
+}
+
+.navbar section{
+    align-items: center;
+}
+
+.logo{
+    width: 130px;
+    height: 80px;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+    /* align-items: center; */
+    /* margin-top: 10px; */
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+     list-style: none;
+     display: inline;
+     margin: 10px;
+}
