@@ -1,24 +1,37 @@
 /* shared style */
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
+
+.color-font{
+    color: rgba(233, 90, 8, 1);
+}
+
+.font-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 200;
+}
 
 
 /* navbar section */
-
-
-.navbar{
-    /* max-width: 1140px;  */
-    /* margin: 0 auto; */
-    /* border: 1px solid brown; */
-    margin-left: 60px;
-    margin-right: 50px;
-}
-
 
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* margin: 0px 0px 50px 50px; */
+      /* max-width: 1140px;  */
+    /* margin: 0 auto; */
+    border: 1px solid brown;
+    margin-left: 90px;
+    margin-right: 60px;
    
 }
 
@@ -26,12 +39,12 @@
     align-items: center;
 }
 
-.logo{
+.nav-logo{
     width: 130px;
     height: 80px;
 }
 
-.icon{
+.nav-icon{
     height: 24px;
     width: 24px;
     align-items: center;
@@ -40,6 +53,7 @@
 
 nav a{
     text-decoration: none;
+    color: rgb(99, 97, 97);
 }
 
 nav li{
@@ -53,12 +67,59 @@ nav li{
 
 .banner{
     display: flex;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 100px;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 130px;
     /* align-items: center; */
     align-items: center;
     justify-content: space-between;
     border: 1px solid brown;
 
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-img{
+    width: 500px;
+    height: 300px;
+}
+
+
+
+/* Plants Section */
+
+.plants-section{
+    /* align-items: center; */
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid brown;
+    text-align: center;
+}
+
+.img-size{
+    width: 200px ;
+    height: 220px;
+}
+
+.btn-primary{
+    background-color: rgba(233, 90, 8, 1);
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+
+
+.plant-column{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* gap: 20px; */
+}
+
+.title{
+    font-weight: bold;
+    font-size: 35px;
 }
