@@ -254,6 +254,7 @@ nav li{
 .join-title{
     text-align: center;
     color: white;
+    
 }
 
 .input-email{
@@ -275,14 +276,15 @@ nav li{
 .footer-section{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 100px; */
-    /* margin-left: 90px; */
-    /* margin-right: 133px; */
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
     border: 1px solid brown;
 }
 
 .footer-list{
     display: flex;
+    
 }
 
 .footer-items li{
@@ -291,5 +293,24 @@ nav li{
 
 .footer-items a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.icon-section img{
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width:576px){
+    .navbar{
+        
+    }
 }
 
