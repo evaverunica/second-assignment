@@ -19,6 +19,11 @@
     font-weight: 200;
 }
 
+.font-size{
+    font-size: 40px;
+    font-weight: bold; 
+}
+
 
 /* navbar section */
 
@@ -144,7 +149,7 @@ nav li{
 .lover-section{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid brown; */
+    border: 1px solid brown;
     margin-top: 100px;
      margin-left: 90px;
     margin-right: 133px;
@@ -156,7 +161,47 @@ nav li{
     height: 550px;
 }
 
-.font-size{
-    font-size: 40px;
-    font-weight: bold; 
+
+
+
+/* Deals section */
+
+
+
+.deals-title{
+        text-align: center;
+}
+
+.deals-img{
+    display: flex;
+}
+
+
+.bloom-flower{
+    background-image: url(imgs/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 370px;
+    border-radius: 15px;
+    /* border: 1px solid brown; */
+}
+
+
+.ana-flower{
+   background-image: url(imgs/deal-ana.png);
+   background-repeat: no-repeat;
+    height: 200px;
+    width: 370px;
+    border-radius: 15px;
+    /* border: 1px solid brown; */
+}
+
+.zabo-flower{
+    background-image: url(imgs/deal-zabo.png); 
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 770px;
+    border-radius: 15px;
+    /* border: 1px solid brown; */
+
 }
