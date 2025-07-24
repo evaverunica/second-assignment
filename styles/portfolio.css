@@ -91,18 +91,19 @@ nav li{
 
 /* Plants Section */
 
+
 .plants-section{
     /* align-items: center; */
     margin-top: 60px;
     margin-left: 90px;
-    margin-right: 90px;
-    border: 1px solid brown;
+    margin-right: 133px;
+    /* border: 1px solid brown; */
     text-align: center;
 }
 
 .img-size{
     width: 200px ;
-    height: 220px;
+    height: 250px;
 }
 
 .btn-primary{
@@ -110,6 +111,12 @@ nav li{
     height: 50px;
     width: 200px;
     color: white;
+    border: none;
+}
+
+
+.btn-primary :hover{
+    background-color: rgb(230, 131, 74);
 }
 
 
@@ -122,4 +129,12 @@ nav li{
 .title{
     font-weight: bold;
     font-size: 35px;
+}
+
+.plant-cart {
+    /* border: 1px solid brown; */
+    /* margin-top: 20px; */
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
