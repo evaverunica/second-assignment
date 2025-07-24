@@ -170,6 +170,11 @@ nav li{
 
 .deals-title{
         text-align: center;
+         margin-top: 100px;
+     margin-left: 90px;
+    margin-right: 133px;
+        /* margin-top: 20px; */
+        /* margin-bottom: 0px; */
 }
 
 .deals-img{
@@ -180,8 +185,8 @@ nav li{
 .bloom-flower{
     background-image: url(imgs/deal-bloom.png);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 370px;
+    height: 220px;
+    width: 390px;
     border-radius: 15px;
     /* border: 1px solid brown; */
 }
@@ -190,8 +195,8 @@ nav li{
 .ana-flower{
    background-image: url(imgs/deal-ana.png);
    background-repeat: no-repeat;
-    height: 200px;
-    width: 370px;
+    height: 220px;
+    width: 390px;
     border-radius: 15px;
     /* border: 1px solid brown; */
 }
@@ -199,9 +204,48 @@ nav li{
 .zabo-flower{
     background-image: url(imgs/deal-zabo.png); 
     background-repeat: no-repeat;
-    height: 430px;
-    width: 770px;
+    height: 490px;
+    width: 790px;
     border-radius: 15px;
     /* border: 1px solid brown; */
 
 }
+
+
+/* Join Section */
+
+.join-section{
+    background-image: url(imgs/news-letter-bg.png);
+    height: 420px;
+    width: 100%;
+}
+
+
+.join-title{
+    text-align: center;
+    color: white;
+}
+
+/* footer section */
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    /* margin-left: 90px; */
+    /* margin-right: 133px; */
+    border: 1px solid brown;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-items li{
+    list-style: none;
+}
+
+.footer-items a{
+    text-decoration: none;
+}
+
