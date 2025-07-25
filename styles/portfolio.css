@@ -155,23 +155,19 @@ nav li{
     margin-top: 30px;
 }
 
-/* .trusted-badge{
+.badge{
+    position: relative;
+}
+
+.trusted-badge{
    width: 150px;
    height: 150px;
-   border: 1px solid brown;
-   justify-content: right;
-   display: flex;
+   position: absolute;
+   left: 80%;
+   bottom: 85%;
 }
 
- */
-
-.badge-img{
-    /* border: 1px solid brown;
-    justify-content: end;
-    /* display: flex; */
-}
-
-
+ 
 
 /* Deals section */
 
