@@ -155,6 +155,21 @@ nav li{
     margin-top: 30px;
 }
 
+/* .trusted-badge{
+   width: 150px;
+   height: 150px;
+   border: 1px solid brown;
+   justify-content: right;
+   display: flex;
+}
+
+ */
+
+.badge-img{
+    /* border: 1px solid brown;
+    justify-content: end;
+    /* display: flex; */
+}
 
 
 
@@ -325,8 +340,28 @@ nav li{
 /* responsive media query */
 
 @media screen and (max-width:576px){
-    .banner img{
-         flex-direction: column;
+    .navbar , .nav-icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner{
+         flex-wrap: wrap-reverse;
+    }
+
+
+
+    .lover-section{
+        flex-wrap: wrap;
+    }
+    .plant-column{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .Deals-section{
+        /* flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: 1,1fr;
     }
 }
 
