@@ -33,7 +33,7 @@
    
 }
 
-.navbar section{
+.navbar-section{
     align-items: center;
 }
 
@@ -108,12 +108,6 @@ nav li{
     border: none;
 }
 
-
-.btn-primary :hover{
-    background-color: rgb(230, 131, 74);
-}
-
-
 .plant-column{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -142,9 +136,6 @@ nav li{
     margin-right: 133px;
   
 }
-
-
-
 
 .store-img{
     width: 100%;
@@ -178,8 +169,6 @@ nav li{
     
 }
 
-
-
 .deals-title{
         text-align: center;
 }
@@ -194,7 +183,7 @@ nav li{
 }
 
 .image-1 {
-    background-image: url(/assets/deal-bloom.png);
+    background-image: url(assets/deal-bloom.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -208,7 +197,7 @@ nav li{
     margin-bottom: 30px;
 }
 .image-2 {
-    background-image: url(/assets/deal-ana.png);
+    background-image: url(assets/deal-ana.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -222,7 +211,7 @@ nav li{
     color: white;
 }
 .image-3 {
-    background-image: url(/assets/deal-zabo.png);
+    background-image: url(assets/deal-zabo.png);
     width: 753px;
     height: 350px;
     border-radius: 15px;
@@ -336,14 +325,20 @@ nav li{
 /* responsive media query */
 
 @media screen and (max-width:576px){
-    .navbar , .nav-icon{
+    body {
+        overflow: hidden;
+    }
+    .navbar{
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+
     }
     .banner{
          flex-wrap: wrap-reverse;
     }
-
 
 
     .lover-section{
@@ -352,12 +347,47 @@ nav li{
     .plant-column{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        /* overflow: hidden; */
     }
 
     .Deals-section{
         /* flex-wrap: wrap; */
         display: grid;
         grid-template-columns: 1,1fr;
+    }
+    .navbar-section li{
+        display: none;
+    }
+    li:last-child {
+        display: block;
+    }
+    .banner {
+        width: 100%;
+        margin: 0;
+        
+    }
+    .plants-section{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .lover-section {
+        width: 100%;
+        margin: 0;
+        
+        margin-top: 60px;
+    }
+    .trusted-badge {
+        display: none;
+    }
+    .Deals-section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .flower-main {
+        display: flex;
+        /* flex-direction: column; */
     }
 }
 
