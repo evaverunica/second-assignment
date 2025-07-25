@@ -183,7 +183,7 @@ nav li{
 }
 
 .image-1 {
-    background-image: url(assets/deal-bloom.png);
+    background-image: url(../assets/deal-bloom.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -197,7 +197,7 @@ nav li{
     margin-bottom: 30px;
 }
 .image-2 {
-    background-image: url(assets/deal-ana.png);
+    background-image: url(../assets/deal-ana.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -211,7 +211,7 @@ nav li{
     color: white;
 }
 .image-3 {
-    background-image: url(assets/deal-zabo.png);
+    background-image: url(../assets/deal-zabo.png);
     width: 753px;
     height: 350px;
     border-radius: 15px;
@@ -388,6 +388,12 @@ nav li{
     .flower-main {
         display: flex;
         /* flex-direction: column; */
+        margin: 0;
+        padding: 0;
+    }
+    .footer-section {
+        flex-direction: column;
+        margin: 0;
     }
 }
 
