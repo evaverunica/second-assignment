@@ -151,6 +151,10 @@ nav li{
     height: 560px;
 }
 
+.plants-description{
+    margin-top: 30px;
+}
+
 
 
 
@@ -221,6 +225,27 @@ nav li{
  a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.title-1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.title-2{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.image-3 a{
+     font-size: 20px;
+    font-weight: 600;
+    margin-top: -25px;
 }
 
 
@@ -245,7 +270,7 @@ nav li{
 }
 
 .input-email{
-    width: 830px;
+    width: 620px;
     height: 35px;
     border: none;
     
